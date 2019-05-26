@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+link, title, script {
+  display: none !important;
+}
+
+/* --------------SIZE & SPACE-------------- */
+.img50 {
+  width: 50px;
+  height: 50px;
+}
+
+.bar {
+  min-width: 100%;
+  min-height: 50px;
+}
+
+.framed {
+  padding: 10px;
+}
+
+.bubble {
+  margin: 10px;
+}
+
+.vBubble {
+  margin: 10px 0px;
+}
+
+.hBubble {
+  margin: 0px 10px;
+}
+
+.vFramed {
+  padding: 10px 0px;
+}
+
+.hFramed {
+  padding: 0px 10px;
+}
+
+.fullSize {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* ------------------------------------- */
+/* ----------------FLEX---------------- */
+.spaceAround {
+  justify-content: space-around;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  flex-direction: row !important;
+}
+
+.column {
+  flex-direction: column !important;
+}
+
+.adaptRow {
+  flex-direction: row;
+}
+
+.adaptCol {
+  flex-direction: column;
+}
+
+/* ------------------------------------- */
+/* --------------POSITION-------------- */
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+/* ------------------------------------- */
+@media screen and (max-width: 620px) {
+  .adaptRow {
+    flex-direction: column;
+  }
+
+  .adaptCol {
+    flex-direction: row;
+  }
+
+  .hideOnSmallScreen {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=structure.css.map */

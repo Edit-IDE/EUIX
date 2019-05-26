@@ -1,0 +1,235 @@
+$var: Helvetica, sans-serif;
+
+@mixin transform($property) {
+    transform: $property;
+    -ms-transform: $property;
+    -webkit-transform: $property;
+}
+
+
+.border{
+    border-style: solid;
+}
+
+.thin{
+    border-width: 1px;
+    outline-width: 1px;
+}
+
+.normal{
+    
+}
+
+.outline{
+    outline-style: solid;
+}
+
+.rounded{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+/*--------------------Items Color--------------------*/
+.white{
+    background-color: white;
+}
+
+.light_grey{
+    background-color: #efefef; 
+}
+
+.grey{
+    background-color: grey;
+}
+
+.black{
+    background-color: black;
+}
+
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: orangered;
+}
+
+.yellorange{
+    background-color: orange;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.greenyan{
+    background-color: #00ff8c;
+}
+
+.cyan{
+    background-color: cyan;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.blurple{
+    background-color: #8000ff;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.magenta{
+    background-color: magenta;
+}
+
+.pink{
+    background-color: rgb(255, 170, 204);
+}
+/*---------------------------------------------------*/
+
+
+
+
+
+/*---------------------Text Color--------------------*/
+.white_txt{
+    background-color: white;
+}
+
+.light_grey_txt{
+    background-color: #efefef; 
+}
+
+.grey_txt{
+    background-color: grey;
+}
+
+.black_txt{
+    background-color: black;
+}
+
+.red_txt{
+    background-color: red;
+}
+
+.orange_txt{
+    background-color: orangered;
+}
+
+.yellorange_txt{
+    background-color: orange;
+}
+
+.yellow_txt{
+    background-color: yellow;
+}
+
+.green_txt{
+    background-color: green;
+}
+
+.greenyan_txt{
+    background-color: #00ff8c;
+}
+
+.cyan_txt{
+    background-color: cyan;
+}
+
+.blue_txt{
+    background-color: blue;
+}
+
+.blurple_txt{
+    background-color: #8000ff;
+}
+
+.purple_txt{
+    background-color: purple;
+}
+
+.magenta_txt{
+    background-color: magenta;
+}
+
+.pink_txt{
+    background-color: rgb(255, 170, 204);
+}
+/*---------------------------------------------------*/
+
+
+/*---------------------Border Color--------------------*/
+.white_border{
+    border-color: white;
+}
+
+.light_grey_border{
+    border-color: #efefef; 
+}
+
+.grey_border{
+    border-color: grey;
+}
+
+.black_border{
+    border-color: black;
+}
+
+.red_border{
+    border-color: red;
+}
+
+.orange_border{
+    border-color: orangered;
+}
+
+.yellorange_border{
+    border-color: orange;
+}
+
+.yellow_border{
+    border-color: yellow;
+}
+
+.green_border{
+    border-color: green;
+}
+
+.greenyan_border{
+    border-color: #00ff8c;
+}
+
+.cyan_border{
+    border-color: cyan;
+}
+
+.blue_border{
+    border-color: blue;
+}
+
+.blurple_border{
+    border-color: #8000ff;
+}
+
+.purple_border{
+    border-color: purple;
+}
+
+.magenta_border{
+    border-color: magenta;
+}
+
+.pink_border{
+    border-color: rgb(255, 170, 204);
+}
+/*---------------------------------------------------*/
