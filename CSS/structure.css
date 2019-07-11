@@ -48,6 +48,19 @@ link, title, script {
   min-height: 100%;
 }
 
+.fitContent {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.fillWidth {
+  width: 100%;
+}
+
+.fillHeight {
+  height: 100%;
+}
+
 /* ------------------------------------- */
 /* ----------------FLEX---------------- */
 .spaceAround {
