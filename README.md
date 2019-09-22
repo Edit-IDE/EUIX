@@ -1,5 +1,5 @@
 # KUSIX
-Kamoleons User Style Interface and Xperience
+Kamoleons User Style Interface and eXperience
 
 CSS/JS UI UX Framework - Light, Responsible, Intuitive
 
@@ -14,6 +14,6 @@ CSS/JS UI UX Framework - Light, Responsible, Intuitive
   - Global
   - Components
 
-It allows you to choose your display organisation and then fonts and colors for every element you want
+It allows you to choose your display organization and then fonts and colors for every element you want
 
 # Usage
