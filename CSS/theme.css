@@ -7,6 +7,11 @@
   outline-width: 1px;
 }
 
+.normal {
+  border-width: 2px;
+  outline-width: 2px;
+}
+
 .outline {
   outline-style: solid;
 }
@@ -85,67 +90,67 @@
 /*---------------------------------------------------*/
 /*---------------------Text Color--------------------*/
 .white_txt {
-  background-color: white;
+  color: white;
 }
 
 .light_grey_txt {
-  background-color: #efefef;
+  color: #efefef;
 }
 
 .grey_txt {
-  background-color: grey;
+  color: grey;
 }
 
 .black_txt {
-  background-color: black;
+  color: black;
 }
 
 .red_txt {
-  background-color: red;
+  color: red;
 }
 
 .orange_txt {
-  background-color: orangered;
+  color: orangered;
 }
 
 .yellorange_txt {
-  background-color: orange;
+  color: orange;
 }
 
 .yellow_txt {
-  background-color: yellow;
+  color: yellow;
 }
 
 .green_txt {
-  background-color: green;
+  color: green;
 }
 
 .greenyan_txt {
-  background-color: #00ff8c;
+  color: #00ff8c;
 }
 
 .cyan_txt {
-  background-color: cyan;
+  color: cyan;
 }
 
 .blue_txt {
-  background-color: blue;
+  color: blue;
 }
 
 .blurple_txt {
-  background-color: #8000ff;
+  color: #8000ff;
 }
 
 .purple_txt {
-  background-color: purple;
+  color: purple;
 }
 
 .magenta_txt {
-  background-color: magenta;
+  color: magenta;
 }
 
 .pink_txt {
-  background-color: #ffaacc;
+  color: #ffaacc;
 }
 
 /*---------------------------------------------------*/
