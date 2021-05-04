@@ -1,0 +1,7 @@
+@function relative-luminance($R, $G, $B) {
+    @return 0.2126 * $R + 0.7152 * $G + 0.0722 * $B;
+}
+
+@function color-contrast($L1, $L2) {
+    @return ($L1 + 0.05) / ($L2 + 0.05);
+}
