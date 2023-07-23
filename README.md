@@ -1,5 +1,5 @@
-# KUSIX
-Kamoleons User Style Interface and eXperience
+# Editide User Interface Experience
+EditIDE User style Interface and eXperience
 
 CSS/JS UI UX Framework - Light, Responsible, Intuitive
 
